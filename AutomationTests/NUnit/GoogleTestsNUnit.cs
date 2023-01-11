@@ -1,4 +1,6 @@
 using System.Threading.Tasks;
+using AutomationSDK.MSTest;
+using AutomationSDK.Pages;
 using NUnit.Framework;
 
 namespace AutomationTests.NUnit;

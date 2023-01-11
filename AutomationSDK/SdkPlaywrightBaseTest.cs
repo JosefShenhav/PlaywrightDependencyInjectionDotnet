@@ -1,4 +1,6 @@
 using System.Threading.Tasks;
+using AutomationSDK.Extensions;
+using AutomationSDK.Navigation;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;

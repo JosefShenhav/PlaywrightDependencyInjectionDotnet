@@ -1,3 +1,5 @@
+using AutomationSDK.Config;
+using AutomationSDK.Pages;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
