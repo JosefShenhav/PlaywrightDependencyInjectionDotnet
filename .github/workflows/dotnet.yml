@@ -30,4 +30,4 @@ jobs:
     - name: Ensure browsers are installed
       run: pwsh AutomationTests/bin/Debug/net6.0/playwright.ps1 install --with-deps
     - name: Test
-      run: dotnet test --no-restore
+      run: xvfb-run dotnet test --no-restore
