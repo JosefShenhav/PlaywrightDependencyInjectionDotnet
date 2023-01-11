@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>AutomationSDK.MSTest</PackageId>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <Import Project="../Directory.Build.Props" />
+  
+  <ItemGroup>
+    <ProjectReference Include="..\AutomationSDK\AutomationSDK.csproj">
+      <PrivateAssets>contentfiles;analyzers</PrivateAssets>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.0">
+      <PrivateAssets>contentfiles;analyzers</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.0" >
+      <PrivateAssets>contentfiles;analyzers</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
