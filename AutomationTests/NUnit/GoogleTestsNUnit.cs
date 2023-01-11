@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using AutomationSDK.MSTest;
+using AutomationSDK.NUnit;
 using AutomationSDK.Pages;
 using NUnit.Framework;
 
