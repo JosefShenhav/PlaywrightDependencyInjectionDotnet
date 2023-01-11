@@ -28,6 +28,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Ensure browsers are installed
-      run: pwsh AutomationTests\bin\Debug\net6.0\playwright.ps1 install --with-dep
+      run: pwsh AutomationTests/bin/Debug/net6.0/playwright.ps1 install --with-dep
     - name: Test
       run: dotnet test --no-restore
